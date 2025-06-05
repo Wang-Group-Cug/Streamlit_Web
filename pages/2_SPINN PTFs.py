@@ -37,15 +37,15 @@ if submitted:
 
       [VGM_Para,nan]=VGM_PTF([[sand,silt,clay,bd]])
       VGM_Para = np.round(VGM_Para,4)
-      st.write("VGM:","alpha=",VGM_Para[0],'n=',VGM_Para[1],'θr=',VGM_Para[2],'θs=',VGM_Para[3],'Ks=',VGM_Para[4]) 
+      st.write("VGM Model Parameters:","alpha=",VGM_Para[0],'n=',VGM_Para[1],'θr=',VGM_Para[2],'θs=',VGM_Para[3],'Ks=',VGM_Para[4]) 
       
       [M3_Para,nan]=M3_PTF([[sand,silt,clay,bd]])
       M3_Para = np.round(M3_Para,4)
-      st.write("FXW_M3:","alpha=",M3_Para[0],'n=',M3_Para[1],'m=',M3_Para[2],'θs=',M3_Para[3],'K(ha)=',M3_Para[4],'Ks=',M3_Para[5]) 
+      st.write("FXW_M3 Model Parameters:","alpha=",M3_Para[0],'n=',M3_Para[1],'m=',M3_Para[2],'θs=',M3_Para[3],'K(ha)=',M3_Para[4],'Ks=',M3_Para[5]) 
 
       [B_FXW_Para,nan]=B_FXW_PTF([[sand,silt,clay,bd]])
       B_FXW_Para = np.round(B_FXW_Para,4)
-      st.write("B_FXW_M3:","alpha=",B_FXW_Para[2],'n=',B_FXW_Para[3],'m=',B_FXW_Para[0],'θs=',B_FXW_Para[1],'nc=',B_FXW_Para[4],'K(ha)=',B_FXW_Para[5],'Ks=',B_FXW_Para[6])       
+      st.write("B_FXW Model Parameters:","alpha=",B_FXW_Para[2],'n=',B_FXW_Para[3],'m=',B_FXW_Para[0],'θs=',B_FXW_Para[1],'nc=',B_FXW_Para[4],'K(ha)=',B_FXW_Para[5],'Ks=',B_FXW_Para[6])       
 
    else:
       st.write('input error (sand+silt+clay should equal to 1 & The unit of bulk density is g/cm^3)')
