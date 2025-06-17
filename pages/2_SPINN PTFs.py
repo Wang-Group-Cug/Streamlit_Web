@@ -22,7 +22,7 @@ st.markdown('For more details, please refer to <Soil Physics Informed Neural Net
 st.markdown("---")
 
 #   ''' Single samles '''     ''' Single samles '''           
-st.subheader('Single sample need to be predicted hydraulic parameters:')
+st.subheader(':blue[Single sample need to be predicted hydraulic parameters:]')
 st.text('Please enter Soil Texture and Bulk density.')
 with st.form('Texture & BD'):
     sand = st.number_input('Sand×100%, (eg 0.41)')
@@ -52,7 +52,7 @@ if submitted:
 
 ###### Upload input .csv
 st.markdown("---")
-st.subheader('Multiple samples need to be predicted:')
+st.subheader(':blue[Multiple samples need to be predicted:]')
 st.text('If a large number of soil need to be predicted, you can download the "Example.csv"\nand rewrite it. And then Browse and upload the file.')
 csv_path = Path(__file__).parent.parent / "texture1.csv"
 with open("texture1.csv") as file:
