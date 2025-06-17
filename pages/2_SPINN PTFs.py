@@ -27,7 +27,7 @@ st.markdown("---")
 #    "<h2 style='color: blue;'>Single sample need to be predicted hydraulic parameters:</h2>", 
 #    unsafe_allow_html=True
 #)
-st.subheader(':blue[Multiple samples need to be predicted:]')
+st.subheader(':blue[Single sample need to be predicted:]')
 st.text('Please enter Soil Texture and Bulk density.')
 with st.form('Texture & BD'):
     sand = st.number_input('Sand×100%, (eg 0.41)')
