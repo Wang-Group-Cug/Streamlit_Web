@@ -81,7 +81,8 @@ def B_FXW_PTF(Texture):
         FNN.eval()
         out_para=FNN(Tex_list)
     out_para_K=pd.DataFrame(10**out_para)
-
+    mask = out_para_K[0] > out_para_K[1]  
+    out_para_K.loc[mask, 0] = out_para_K.loc[mask, 1]  # Kha & Ks
 
     # pd.concat([pd.DataFrame(out_para_SWRC),pd.DataFrame(out_para_K)],axis=1).to_csv('B_FXW_Para.csv',header=None) # Save
     pd_Para=pd.concat([pd.DataFrame(out_para_SWRC),pd.DataFrame(out_para_K)],axis=1)
