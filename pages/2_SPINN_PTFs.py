@@ -35,9 +35,9 @@ st.markdown(
     ---
     
     ### 💡 Introduction
-    This program allows you to utilize **Soil Physics-Informed Neural Networks (SPINN)** to predict soil hydraulic parameters with high accuracy. 
-    Unlike traditional methods, SPINN effectively captures the **bimodal behavior** of soil hydraulic properties caused by soil structure, providing more reliable data for hydrological modeling.
-
+    This program allows you to utilize **Soil Physics-Informed Neural Networks (SPINN)** to predict soil hydraulic parameters. 
+    SPINN embeds soil hydraulic models into the training process. The loss function consists of moisture content and hydraulic conductivity.
+    We have provided the prediction parameters of three models, namely VGM, FXW-M3, and B-FXW.
     **What you can get:**
     By inputting basic soil properties, you will obtain parameters for:
     *   **VGM Model**: The standard unimodal model.
