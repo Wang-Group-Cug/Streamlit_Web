@@ -1,0 +1,1 @@
+This code repository includes the code from the article 'Soil Physics-Informed Neural Networks to Estimate Bimodal Soil Hydraulic Properties'. The application has been uploaded to https://cug-wang.streamlit.app/ for use.
