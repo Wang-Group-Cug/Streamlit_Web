@@ -11,5 +11,5 @@ import requests
 # st.text('(8)Wang, Yunquan. 2024.\n “Prediction of the Weighted-Mean Soil Water Diffusivity in Supporting the Falling Rate Stage of Evaporation.”\n Advances in Water Resources 185: 104657. doi:10.1016/j.advwatres.2024.104657.')
 st.text('Wang, Y., Ma, R., & Vereecken, H. (2025).\n “A Generalized Framework to Describe Unimodal and Bimodal Soil Hydraulic Properties Over Full Water Saturation Range. Water Resources Research”,\n 61(2), e2024WR038450. https://doi.org/10.1029/2024WR038450')
 st.text('Zhou, J., Wang, Y., Qi, P., Ma, R.,Vereecken, H., Minasny, B., & Zhang, Y. (2025).\n “Soil Physics‐Informed Neural Networks to estimate bimodal soil. Water Resources Research”,\n 61, e2024WR039337. https://doi.org/10.1029/2024WR039337') 
-
+st.text('Qi, P., Wang, Y., Ma, R.,Zhou, J.,Vereecken, H., Minasny, B., Sun, Z. , Zhu, G.,Zhang, K. (2026).\n “Physics-Informed Neural Networks to Develop Site-Specific Pedotransfer Functions”,\n 61, e2025WR041265.  https://doi.org/10.1029/2025WR041265')
 
